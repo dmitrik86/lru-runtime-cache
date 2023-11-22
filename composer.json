@@ -1,0 +1,26 @@
+{
+  "name": "lru-runtime-cache/lru-runtime-cache",
+  "description": "The package provides the least recently used runtime cache class.",
+  "version": "1.0.0",
+  "type": "library",
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "LRURuntimeCache\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mashkin Dmytro",
+      "email": "dmitriy.mashkin86@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  }
+}
